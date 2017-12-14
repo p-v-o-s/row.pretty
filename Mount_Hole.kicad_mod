@@ -1,0 +1,11 @@
+(module Mount_Hole (layer F.Cu) (tedit 568C1B60)
+  (descr "module 1 pin (ou trou mecanique de percage)")
+  (tags DEV)
+  (fp_text reference P400 (at 0 -3.048) (layer F.SilkS) hide
+    (effects (font (size 1.016 1.016) (thickness 0.254)))
+  )
+  (fp_text value MH_A (at 0 3.81) (layer F.SilkS) hide
+    (effects (font (size 1.016 1.016) (thickness 0.254)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 4.826 4.826) (drill 2.3622) (layers *.Cu *.Mask F.SilkS))
+)
